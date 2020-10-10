@@ -31,7 +31,7 @@ const Jokes: React.FC<{}> = () => {
   return (
     <Container>
       <div>
-        <Categories onCategorySelected={onCategorySelected} />
+        <Categories uuonCategorySelected={onCategorySelected} />
       </div>
       <div>
         <Random category={selectedCategory} />

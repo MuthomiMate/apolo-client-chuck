@@ -1,12 +1,12 @@
 import React from "react";
 import { shallow, configure } from "enzyme";
 import Adapter from 'enzyme-adapter-react-16';
-import App from "../App";
+import Jokes from "../components/jokes";
 
 configure({adapter: new Adapter()});
-describe("<App />", () => {
+describe("<Jokes />", () => {
   test("should render without crashing", () => {
-    const wrapper = shallow(<App />);
+    const wrapper = shallow(<Jokes />);
     expect(wrapper).toMatchSnapshot();
   });
 });
