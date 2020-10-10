@@ -41,7 +41,7 @@ const Container = styled.div`
   }
 `;
 
-const Random = ({ category }) => {
+const Random = ({ category }: string) => {
   const {
     loading,
     error,
