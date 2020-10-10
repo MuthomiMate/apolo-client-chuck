@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import Joke from "./joke1";
+import Joke from "./jokes";
 import chuck from "../assets/chuck.png";
 
 const Cover = styled.div`

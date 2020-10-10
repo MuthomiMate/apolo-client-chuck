@@ -21,7 +21,7 @@ const Container = styled.div`
   }
 `;
 
-const Joke: React.FC<{}> = () => {
+const Jokes: React.FC<{}> = () => {
   const [selectedCategory, setSelectedCategory] = useState<String>("");
 
   const onCategorySelected = ({ target }: any) => {
@@ -39,4 +39,4 @@ const Joke: React.FC<{}> = () => {
     </Container>
   );
 };
-export default Joke;
+export default Jokes;
