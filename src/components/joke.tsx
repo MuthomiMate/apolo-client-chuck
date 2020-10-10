@@ -1,6 +1,6 @@
 import React from "react";
 import { useQuery } from "@apollo/react-hooks";
-import { GET_CATEGORIES, GET_JOKE } from "./graphql/queries";
+import { GET_CATEGORIES, GET_JOKE } from "../graphql/queries";
 
 // Request data via @apollo/react-hooks
 
