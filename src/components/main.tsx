@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import Joke from "./joke";
+import Joke from "./joke1";
 import chuck from "../assets/chuck.png";
 
 const Cover = styled.div`
@@ -18,6 +18,7 @@ const Button = styled.div`
   margin-top: 2rem;
   margin: auto;
   width: fit-content;
+  text-transform: uppercase;
   font-weight: 700;
   box-shadow: 0 10px 10px -10px #000000;
 `;
@@ -48,7 +49,7 @@ const Main: React.FC<{}> = () => {
           <img src={chuck} style={{ height: "150px" }} alt="" />
         </div>
       </Container>
-      <div style={{ marginTop: "9rem" }}>
+      <div>
         <Joke />
       </div>
     </Cover>
