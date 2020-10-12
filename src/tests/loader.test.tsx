@@ -4,7 +4,7 @@ import Adapter from 'enzyme-adapter-react-16';
 import Loader from "../components/loader";
 
 configure({adapter: new Adapter()});
-describe("<App />", () => {
+describe("<Loader />", () => {
   test("should render without crashing", () => {
     const wrapper = shallow(<Loader />);
     expect(wrapper).toMatchSnapshot();

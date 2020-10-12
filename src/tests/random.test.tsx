@@ -22,7 +22,7 @@ const mocks = [
   ];
 
 configure({adapter: new Adapter()});
-describe("<App />", () => {
+describe("<Random />", () => {
   test("should render without crashing", () => {
     const wrapper = mount(
         <MockedProvider mocks={mocks} addTypename={false}>
